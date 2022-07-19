@@ -1,0 +1,43 @@
+/*
+ * 主页页面样式文件。
+ * 2051565
+ * 创建于 2022年7月18日。
+ */
+
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: #8abcd1;
+}
+
+#title {
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    left: 24px;
+    top: 18px;
+}
+
+.elementContainer {
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.funcContainer {
+    width: 100%;
+    height: 18%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
